@@ -4,7 +4,15 @@
     margin: 0px;
 }
 
-ul{
+section{
+    background-image: url(imagens/imagem\ do\ carro\ laranja.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(40%);
+    height: 650px;
+}
+
+#menu-inicial{
     background-color: rgba(0, 0, 0, 0.135);
     height: 40px;
 }
@@ -16,6 +24,7 @@ ul{
 
 #login-img{
     background-image: url(imagens/foto\ de\ perfil.jpg);
+    background-size: cover;
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -49,9 +58,3 @@ ul{
 }
 
 
-section{
-    background-image: url(imagens/imagem\ do\ carro\ laranja.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 650px;
-}
