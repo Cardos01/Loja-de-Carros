@@ -1,1 +1,57 @@
 @charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+ul{
+    background-color: rgba(0, 0, 0, 0.135);
+    height: 40px;
+}
+
+#login-img,#search,#nome-usuario{
+    display: inline-block;
+    color: white;
+}
+
+#login-img{
+    background-image: url(imagens/foto\ de\ perfil.jpg);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 8px 0px 0px 5px;
+}
+
+#nome-usuario{
+    position: absolute;
+    top: 13px;
+    left: 45px;
+}
+
+
+#search{
+    filter: grayscale(100%);
+    font-size: 1.3em;
+}
+
+.button-search{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+
+.button-search:hover{
+    background-color: rgba(255, 255, 255, 0.429);
+    transition: 0.5s;
+}
+
+
+section{
+    background-image: url(imagens/imagem\ do\ carro\ laranja.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}
