@@ -4,7 +4,7 @@
     margin: 0px;
 }
 
-section{
+#imagem-inicial{
     background-image: url(imagens/imagem\ do\ carro\ laranja.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -57,4 +57,23 @@ section{
     transition: 0.5s;
 }
 
+#menu-selecao{
+    display: flex;
+    background-color: black;
+    list-style-type: none;
+}
 
+button{
+    color: whitesmoke;
+    width: 100px;
+    height: 30px;
+    margin: 2px;
+    background-color: black;
+    border-top: 0;
+    border-left: 0;
+}
+
+button:hover{
+    background-color: rgb(54, 54, 54);
+    transition: 0.3s;
+}
