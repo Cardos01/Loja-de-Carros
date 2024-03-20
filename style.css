@@ -37,7 +37,6 @@
     left: 45px;
 }
 
-
 #search{
     filter: grayscale(100%);
     font-size: 1.3em;
@@ -63,7 +62,7 @@
     list-style-type: none;
 }
 
-button{
+.btt-selecao{
     color: whitesmoke;
     width: 100px;
     height: 30px;
@@ -73,7 +72,40 @@ button{
     border-left: 0;
 }
 
-button:hover{
+.btt-selecao:hover{
     background-color: rgb(54, 54, 54);
     transition: 0.3s;
+}
+
+#carrousel{
+    display: flex;
+    gap: 13px;
+    margin-left: 5px
+}
+
+.cont-setas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 140px;
+}
+
+button{
+    
+}
+
+#imagem-1{
+    width: 140px;
+    height: 130px;
+}
+
+#imagem-2{
+    width: 140px;
+    height: 130px;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
 }

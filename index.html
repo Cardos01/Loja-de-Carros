@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <section id="imagem-inicial">
+    <header id="imagem-inicial">
         <ul id="menu-inicial">
             <li id="login-img"></li>
             <p id="nome-usuario">nome do usuário</p>
@@ -16,15 +16,40 @@
                 <li id="search">&#128270</li>
             </div>
         </ul>
-    </section>
+    </header>
+
     <section>
-        <ul id="menu-selecao">
-            <button>Marca</button>
-            <button>Modelo</button>
-            <button>Ano</button>
-            <button>Novo</button>
-        </ul>
+        <nav>
+            <ul id="menu-selecao">
+                <button class="btt-selecao">Marca</button>
+                <button class="btt-selecao">Modelo</button>
+                <button class="btt-selecao">Ano</button>
+                <button class="btt-selecao">Novo</button>
+            </ul>
+        </nav>
+
+        <main id="conteudo-principal">
+            <p>lorem ipsun dolor</p>
+            
+            <div id="carrousel">
+
+                <div class="cont-setas">
+                    <button>&#60</button>
+                </div>
+                <div><img src="imagens/carro-azul.jpg" alt="" id="imagem-1"></div>
+
+                <div><img src="imagens/carro branco.jpg" alt="" id="imagem-2"></div>
+                <div class="cont-setas">
+                    <button>&#62</button>
+                </div>
+
+                <div id="imagem-3"></div>
+                <div id="imagem-4"></div>
+            </div>
+        </main>
     </section>
+
+    <footer>Site criado por Matheus Cardoso.</footer>
 
     <script src="script.js"></script>
 </body>
