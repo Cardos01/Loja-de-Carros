@@ -90,10 +90,6 @@
     height: 140px;
 }
 
-button{
-    
-}
-
 #imagem-1{
     width: 140px;
     height: 130px;
@@ -102,6 +98,35 @@ button{
 #imagem-2{
     width: 140px;
     height: 130px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    
+    row-gap: 10px;
+    background-color: black;
+    height: 120px;
+}
+
+#txt-form{
+    text-align: left;
+    color: white;
+    margin: 10px;
+}
+
+input{
+    height: 20px;
+}
+
+.enviar{
+    height: 30px;
+    width: 80px;
+    margin-top: 10px;
+    margin-left: 120px;
+    margin-bottom: 20px;
 }
 
 footer{
