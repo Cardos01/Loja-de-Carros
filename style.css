@@ -44,22 +44,22 @@ a{
 }
 
 #search{
+    background-color: rgba(0, 0, 0, 0);
     filter: grayscale(100%);
     font-size: 1.3em;
+    cursor:pointer;
+    border: 0px;
 }
 
-.button-search{
-    width: 30px;
-    height: 30px;
+#button-search{
     border-radius: 10px;
     position: absolute;
     right: 10px;
     top: 5px;
 }
 
-.button-search:hover{
-    background-color: rgba(255, 255, 255, 0.429);
-    transition: 0.5s;
+#button-search:hover{
+    background-color: rgba(255, 255, 255, 0.22);
 }
 
 #menu-selecao{
@@ -139,7 +139,7 @@ form{
 }
 
 #txt-form{
-    text-align: left;
+    
     color: white;
     margin: 10px;
 }
@@ -165,5 +165,9 @@ footer{
 @media screen and (min-width: 376px) and (max-width: 480px){
     .enviar{
         background-color: green;
+    }
+
+    #txt-form{
+        text-align: left;
     }
 }
